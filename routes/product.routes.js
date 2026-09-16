@@ -16,7 +16,7 @@ router.post("/", createProduct);
 // GET /api/products - Get all products
 router.get("/", getAllProducts);
 
-// DELETE /api/products/:id - Delete a product
+// DELETE /api/products/:id - Delete a product by ID
 router.delete("/:id", deleteProductById);
 
 // Export the router
