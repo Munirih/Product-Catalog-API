@@ -4,6 +4,8 @@ const express = require("express");
 const {
     createProduct,
     getAllProducts,
+    getProductById,
+    updateProductById,
     deleteProductById
 } = require("../controllers/product.controller");
 
@@ -15,6 +17,12 @@ router.post("/", createProduct);
 
 // GET /api/products - Get all products
 router.get("/", getAllProducts);
+
+// GET /api/products - Get a product by ID
+router.get("/:id", getProductById);
+
+// GET /api/products - Update a product by ID
+router.put("/:id", updateProductById);
 
 // DELETE /api/products/:id - Delete a product by ID
 router.delete("/:id", deleteProductById);
