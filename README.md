@@ -2,7 +2,15 @@
 
 A RESTful API for managing products using **Node.js, Express, MongoDB, Mongoose, and Joi**.
 
-The API supports creating, retrieving, updating, and deleting products, as well as advanced features such as searching, sorting, and paginating products.
+The API supports creating, retrieving, updating, and deleting products, as well as advanced features such as searching, sorting, and paginating products. The application is deployed using **Render**.
+
+---
+
+## Live API
+
+The API is deployed on Render and can be accessed here:
+
+**[Product Catalog API](https://product-catalog-api-rm3c.onrender.com/api/products)**
 
 ---
 
@@ -20,6 +28,7 @@ The API supports creating, retrieving, updating, and deleting products, as well 
 - Store product data in MongoDB
 - Centralized error handling
 - Request logging
+- Deploy the API using Render
 
 ---
 
@@ -29,12 +38,12 @@ The API supports creating, retrieving, updating, and deleting products, as well 
 |---|---|
 | Node.js | JavaScript runtime |
 | Express.js | Web framework for building the API |
-| MongoDB | Database |
+| MongoDB | Atlas Database |
 | Mongoose | MongoDB object modeling |
 | Joi | Request data validation |
 | Nodemon | Automatically restarts the server during development |
 | dotenv | Loads environment variables |
-
+| Render | Cloud deployment platform |
 ---
 
 ## Project Structure
