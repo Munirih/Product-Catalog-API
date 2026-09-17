@@ -63,7 +63,7 @@ Product-Catalog-API/
 ├── validation/
 │   └── product.validation.js
 │
-├── .env
+├── .env.example
 ├── .gitignore
 ├── app.js
 ├── package.json
