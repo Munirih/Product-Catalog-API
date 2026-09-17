@@ -43,17 +43,6 @@ const getAllProducts = async (req, res, next) => {
 };
 
 
-const productSchema = Joi.object({
-    name: Joi.string().required(),
-    price: Joi.number().required().min(0),
-    description: Joi.string.optional(),
-    category: Joi.string().required(),
-    inStock: Joi.boolean().default(true)
-})
-
-
-
-
 const deleteProductById = async (req, res, next) => {
     try{
         const product = await ProductModel.findByIdAndDelete(req.params.id)
