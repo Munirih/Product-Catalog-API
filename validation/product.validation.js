@@ -6,7 +6,7 @@ const productValidation = Joi.object({
     price: Joi.number().min(0).required(),
     description: Joi.string().optional(),
     category: Joi.string().required(),
-    inStock: Joi.boolean().optional()
+    inStock: Joi.boolean().strict().default(true)
 });
 
 // Export the validation rules so the controller can use them

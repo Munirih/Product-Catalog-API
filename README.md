@@ -139,3 +139,10 @@ The `GET /products` endpoint supports:
 ### GET /products?page=2&sort=price
 
 ![sorting-and-pagination](./images/image.png)
+
+--- 
+
+Joi Validation
+
+![required-field](./images/image-6.png)
+
